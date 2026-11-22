@@ -48,3 +48,84 @@ checksum = "sha256:36725369c94245889e9b40ee12e7740563dd2e98fd9b95a62cd986deb9ec1
 url = "https://github.com/biomejs/biome/releases/download/%40biomejs/biome%402.6.7/biome-win32-x64.exe"
 url_api = "https://api.github.com/repos/biomejs/biome/releases/assets/737014632"
 provenance = "github-attestations"
+
+[[tools.committed]]
+version = "1.1.12"
+backend = "aqua:crate-ci/committed"
+specifiers = ["latest"]
+
+[tools.committed."platforms.linux-x64"]
+checksum = "sha256:9a860b0a557bc842df663ce923213ff36f077ae2783f8db3123738823279387f"
+url = "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/crate-ci/committed/releases/assets/711174652"
+
+[tools.committed."platforms.linux-x64-musl"]
+checksum = "sha256:9a860b0a557bc842df663ce923213ff36f077ae2783f8db3123738823279387f"
+checksum_source = "mise-versions"
+url = "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/crate-ci/committed/releases/assets/711174652"
+
+[tools.committed."platforms.macos-arm64"]
+checksum = "sha256:070776b773e5fedeb8bd8c2e53d369357b1900fc11ce66f78b4dcf11dfc63fe3"
+checksum_source = "mise-versions"
+url = "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/crate-ci/committed/releases/assets/711178583"
+
+[tools.committed."platforms.macos-x64"]
+checksum = "sha256:070776b773e5fedeb8bd8c2e53d369357b1900fc11ce66f78b4dcf11dfc63fe3"
+checksum_source = "mise-versions"
+url = "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/crate-ci/committed/releases/assets/711178583"
+
+[tools.committed."platforms.windows-x64"]
+checksum = "sha256:9d8608d3622037f19c784bc907903d840c52c1d5e1e4f16daef8653d8a8894b6"
+checksum_source = "mise-versions"
+url = "https://github.com/crate-ci/committed/releases/download/v1.1.12/committed-v1.1.12-x86_64-pc-windows-msvc.zip"
+url_api = "https://api.github.com/repos/crate-ci/committed/releases/assets/711177042"
+
+[[tools.just]]
+version = "1.59.0"
+backend = "aqua:casey/just"
+specifiers = ["latest"]
+
+[tools.just."platforms.linux-arm64"]
+checksum = "sha256:23871b1702bfd550fb5f901778fd4290ecf2ee034a45a889fbe96d89b188086d"
+checksum_source = "mise-versions"
+url = "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/casey/just/releases/assets/642950086"
+
+[tools.just."platforms.linux-arm64-musl"]
+checksum = "sha256:23871b1702bfd550fb5f901778fd4290ecf2ee034a45a889fbe96d89b188086d"
+checksum_source = "mise-versions"
+url = "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/casey/just/releases/assets/642950086"
+
+[tools.just."platforms.linux-x64"]
+checksum = "sha256:409044617b6f06517c1035e55ca38c8c856ff8b650e41bc2aa1ef82d5903a23e"
+checksum_source = "mise-versions"
+url = "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/casey/just/releases/assets/642949555"
+
+[tools.just."platforms.linux-x64-musl"]
+checksum = "sha256:409044617b6f06517c1035e55ca38c8c856ff8b650e41bc2aa1ef82d5903a23e"
+checksum_source = "mise-versions"
+url = "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-unknown-linux-musl.tar.gz"
+url_api = "https://api.github.com/repos/casey/just/releases/assets/642949555"
+
+[tools.just."platforms.macos-arm64"]
+checksum = "sha256:6574cea774ed4cae12e24b6aa11857de33e80dab4667cf628fd5840df96a2a9d"
+checksum_source = "mise-versions"
+url = "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-aarch64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/casey/just/releases/assets/643129724"
+
+[tools.just."platforms.macos-x64"]
+checksum = "sha256:036ead9df9bc31dbae9934ae3b4236ed124d0bafcffd33439460ae084d5c9cb7"
+checksum_source = "mise-versions"
+url = "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-apple-darwin.tar.gz"
+url_api = "https://api.github.com/repos/casey/just/releases/assets/643131819"
+
+[tools.just."platforms.windows-x64"]
+checksum = "sha256:9c5463e2d0974e31bee71346aa5cbf19167de1585a4abc1bae7b3b04604ea9c0"
+checksum_source = "mise-versions"
+url = "https://github.com/casey/just/releases/download/1.59.0/just-1.59.0-x86_64-pc-windows-msvc.zip"
+url_api = "https://api.github.com/repos/casey/just/releases/assets/643131303"

@@ -1,6 +1,11 @@
+[hooks]
+postinstall = "mise exec -- just _install-git-hooks"
+
 [settings]
 lockfile = true
 minimum_release_age = "7d"
 
 [tools]
 biome = "latest"
+committed = "latest"
+just = "latest"
