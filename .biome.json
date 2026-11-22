@@ -24,7 +24,7 @@
   },
   "formatter": {
     "enabled": true,
-    "indentStyle": "space"
+    "useEditorconfig": true
   },
   "javascript": {
     "formatter": {
