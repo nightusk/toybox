@@ -8,4 +8,5 @@ minimum_release_age = "7d"
 [tools]
 biome = "latest"
 committed = "latest"
+deno = "latest"
 just = "latest"

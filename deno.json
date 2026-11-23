@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["dom"]
+  },
+  "tasks": {
+    "dev": "deno run --allow-net=127.0.0.1 --allow-read=./docs jsr:@std/http/file-server --host 127.0.0.1 ./docs"
+  }
+}
